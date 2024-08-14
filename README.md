@@ -1,4 +1,4 @@
-# Welcome to Porda AI!
+# Welcome to Porda AI Extension!
 
 Introducing **Porda AI**, an innovative application designed to be your everyday AI companion, empowering the Muslim community to maintain modesty in the digital realm by blurring and covering non-mahram and haram objects in your browser.
 
@@ -61,20 +61,20 @@ By the grace of Allah 💚, we have developed the world’s first advanced AI so
 
 ## Limitations
 
-🔘 Initially, we focused on publishing the project as a Minimum Viable Product (MVP), so there are some limitations.
-🔘 We've prioritized detecting common objects first. As a result, the extension may not accurately detect more complex objects.
-🔘 The extension works well with images, but video detection may not be perfect for every frame. You can turn off video detection if needed.
-🔘 The extension works on most websites, but there are a few where it may not function correctly. Detection can be turned off on those sites.
-🔘 For Android, a third-party app (Kiwi) is needed, which may limit functionality. We are actively developing a dedicated version for Android.
-🔘 We are actively working to resolve these issues and regularly update the extension to improve its performance.
+- Initially, we focused on publishing the project as a Minimum Viable Product (MVP), so there are some limitations.
+- We've prioritized detecting common objects first. As a result, the extension may not accurately detect more complex objects.
+- The extension works well with images, but video detection may not be perfect for every frame. You can turn off video detection if needed.
+- The extension works on most websites, but there are a few where it may not function correctly. Detection can be turned off on those sites.
+- For Android, a third-party app (Kiwi) is needed, which may limit functionality. We are actively developing a dedicated version for Android.
+- We are actively working to resolve these issues and regularly update the extension to improve its performance.
 
 ## Tips
 
-🔆 For the best experience, use the Chrome browser.
-🔆 If you don't need detection on a particular website, you can turn off detection for that site in the settings.
-🔆 Use the Porda AI app on your computer for direct screen integration on any app.
-🔆 For optimal performance, keep the accuracy setting at 40% or lower.
-🔆 If it suddenly stops working, simply reload the extension.
+- For the best experience, use the Chrome browser.
+- If you don't need detection on a particular website, you can turn off detection for that site in the settings.
+- Use the Porda AI app on your computer for direct screen integration on any app.
+- For optimal performance, keep the accuracy setting at 40% or lower.
+- If it suddenly stops working, simply reload the extension.
 
 ## Minimum Requirements
 
