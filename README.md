@@ -6,9 +6,10 @@ In today’s digital landscape, encountering haram and non-mahram content in ima
 
 By the grace of Allah 💚, we have developed the world’s first advanced AI solution. This cutting-edge technology automatically blurs haram objects in real-time, protecting you and your family from unwelcome content in videos and images.
 
+
 ## Try Porda AI App That Works Directly on Screen
 
-💻 **App version**: [Porda AI on GitHub](https://github.com/hijam-git/Porda-AI)
+💻 **Computer App version**: [Porda AI on GitHub](https://github.com/hijam-git/Porda-AI)
 
 ![Screenshot](github_static/readme_images/1.png)
 ![Screenshot](github_static/readme_images/2.png)
@@ -78,8 +79,10 @@ By the grace of Allah 💚, we have developed the world’s first advanced AI so
 
 ## Minimum Requirements
 
-💻 **For Computer:** 8 GB RAM  
+💻 **For Computer:** 8 GB RAM 
 📱 **For Android:** 4 GB RAM
+**Good processor makes performace better**
+
 
 ## How to Use
 
@@ -90,14 +93,17 @@ By the grace of Allah 💚, we have developed the world’s first advanced AI so
 5. Manage website blacklist or whitelist as necessary.
 6. If video detection is not needed, update settings accordingly.
 
+## Download Here
+- **Porda Ai Extension:** [Porda Ai on Chrome Web Store](https://chromewebstore.google.com/detail/pordaai-realtime-haramblu/ofhlminijomemliahkjjbgcbfoimjiaj)
+
 ## Contact Us
 
 Feel free to reach out to us:
 
 - **Email:** [hijamweb@gmail.com](mailto:hijamweb@gmail.com)
-- **Facebook:** [Abdullah Holy](https://facebook.com/abdullah.holy)
+- **Facebook:** [Abdullah](https://facebook.com/abdullah.holy)
 - **LinkedIn:** [Hijam Ibna Omar](https://www.linkedin.com/in/hijamibnaomar/)
-- **Phone (Bkash/Nagad):** 01823170383
+- **Phone (Bkash/Nagad/Whatsapp):** 01823170383
 - **IBBL Account:** 2050 1806 7001 66103 (Hijam Ibna Omar)
 - **Feedback Form:** [Feedback Form](https://forms.gle/uKoWWYATQvLBHhkN9)
 
