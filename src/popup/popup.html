@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Porda AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="extension-nav">
+        <!-- sticky round backgroud color-->
+        <div class="extension-title">
+            <h1>
+                <!--<img src="../../assets/porda-logo2.png" width="30px"
+                    height="30px">-->Porda
+                Ai
+            </h1>
+            <label class="switch">
+                <input type="checkbox" id="porda-status">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="website-name">
+            Make Your Online Haram Free
+        </div>
+
+    </div>
+    <div class="content-wrapper">
+        <div class="setting-title">Enable/Disable PordaAi for this website</div>
+        <div class="settings-section">
+            <!--Settings Section-->
+           
+            <div class="website-name">
+
+                <label class="switch-small">
+                    <input type="checkbox" id="whitelist">
+                    <span class="slider-small"></span>
+                </label>
+                <span id="hostname" style="font-size: 13px;margin-left: 5px;" class="hostname-text">Active on this site</span></label>
+            </div>
+            
+        </div>
+
+        <div class="settings-section">
+            <!--Settings Section-->
+            <!-- <span class="settings-section-title">Detection Settings</span> -->
+
+            <div class="flex-row">
+                <div>
+                    <b style="margin-right: 10px;">I want to Blur  </b>
+
+                    <div class="checkbox">
+                        
+                        <input type="checkbox" id="male" />
+                        <label for="male">
+                            Male</label>
+                            <div style="margin-left: 10px;">
+                            
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        
+                        <input type="checkbox" id="female" />
+                        <label for="female">Female</label>
+                            
+                       
+                    </div>
+                    
+                </div>
+            
+                <div> <b style="margin-right: 10px;">Where to blur</b>
+                    <div class="checkbox">
+                       
+                        <input type="checkbox" id="image" />
+                        <label for="image">
+                            Images</label>
+                            <div style="margin-left: 10px;">
+                           
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                            <input type="checkbox" id="video" />
+                            <label for="video">Videos</label>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden: Enable/Disable Ads Blocker Section -->
+        <!-- <div class="settings-section">
+        <div class="setting-title">Ad Blocking</div>
+        <div class="checkbox-right-toggle">
+
+            <input type="checkbox" id="ads" />
+            <label for="ads">Enable/Disable Ads Blocker</label>
+            <label class="switch-small">
+                <input type="checkbox" disabled id="ads">
+                <span class="slider-small"></span>
+            </label>
+        </div>
+        <hr class="checkbox-right-toggle hr-style">
+
+        <div class="checkbox-right-toggle">
+            <label for="ads">Block Additional Ads</label>
+            <label class="switch-small">
+
+                <input type="checkbox" id="additional-ads">
+                <span class="slider-small"></span>
+            </label>
+
+        </div>
+        </div> -->
+        <div class="setting-title">Image Loading Rule</div>
+        <div class="settings-section">
+          
+            <div class="checkbox-right-toggle">
+                <label for="initially-img-blur">
+                    Image Blur Untill Detected</label>
+                <label class="switch-small">
+                    
+                    <input type="checkbox" id="initially-img-blur">
+                    <span class="slider-small"></span>
+                </label>
+                
+            </div>
+            <hr class="checkbox-right-toggle hr-style">
+            <div class="checkbox-right-toggle">
+                <label for="initially-img-blur">
+                    Block All Images</label>
+                <label class="switch-small">  
+                    <input type="checkbox" id="block-all-image">
+                    <span class="slider-small"></span>
+                </label>
+                
+            </div>
+           
+         
+        </div>
+        <div class="setting-title">Choose Covering Options</div>
+        <div class="settings-section">
+          
+            <!-- <div style="margin-bottom: 7px;">
+                <b>Choose Covering Options</b>
+                <br>
+                </div> -->
+            
+            <div class="flex-row">
+                <div >
+                    
+                    <b>For Image</b>
+               
+                    <div class="checkbox">
+                        <input type="radio" id="object-cover-blur" name="object-blur-color" value="blur" />
+                        <label for="object-cover-blur">
+                            Blur</label>
+                    </div>
+                    <!-- <div class="checkbox">
+                        <input type="radio" id="full-img-blur" name="object-blur-color" />
+                        <label for="full-img-blur"> Full
+                            Blur</label>
+                    </div> -->
+                    <div class="checkbox">
+                        <input type="radio" id="object-cover-color" name="object-blur-color" value="color" checked />
+
+                        <label for="object-cover-color">Color</label>
+                    
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="full-img-color" name="object-blur-color" />
+    
+                        <label for="full-img-color">Bg Color</label>
+                       
+                    </div>
+                    
+                    <div class="checkbox">
+
+                        <input type="checkbox" id="roundbox" />
+                        <label for="roundbox">
+                            Roundbox</label>
+                    </div>
+                    <div class="checkbox">
+                        <!-- color pick the color-->
+                        <label for="color-picker"></label>
+                        <input type="color" id="color-picker">
+                    </div>
+                    
+                    
+                </div>
+
+                <div>
+                    <b>For Video</b>
+                    
+                    <div class="checkbox">
+                        <input type="radio" id="object-cover-blur-video" name="object-blur-color-video" value="blur-video" />
+                        <label for="object-cover-blur-video">
+                        Blur</label>
+                    </div>
+
+                   <div class="checkbox">
+                    <input type="radio" id="object-cover-color-video" name="object-blur-color-video" value="color-video" checked />
+                    <label for="object-cover-color-video">Color</label>
+
+                   </div>
+                
+                    <div class="checkbox">
+                        <input type="radio" id="img-bg-color-video" name="object-blur-color-video" />
+                        <label for="img-bg-color-video">BG
+                            Color</label>
+                    </div>
+                    <div class="checkbox">
+
+                        <input type="checkbox" id="roundbox-video" />
+                        <label for="roundbox-video">
+                            Roundbox</label>
+                    </div>
+    
+                    <div class="checkbox">
+                        <!-- color pick the color-->
+                        <input type="color" id="color-picker-video">
+                       
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <!-- Accuracy Score -->
+            
+        </div>
+
+        <div class="setting-title">Minumum Confidance level</div>
+        <div class="settings-section">
+            
+            <!--Settings Section-->
+            <!-- <span class="settings-section-title">Detection Settings</span> -->
+            <label for="accuracy-slider">
+                For image:</label>
+            <div class="slider-container">
+
+                <input type="range" id="accuracy-slider" min="0" max="80" min="10" step="5" value="50" />
+                <span id="accuracy-value">50</span>%
+            </div>
+
+            <label for="accuracy-slider-video">
+                For Video:</label>
+            <div class="slider-container">
+
+                <input type="range" id="accuracy-slider-video" min="0" max="80" min="10" step="5" value="50" />
+                <span id="accuracy-value-video">50</span>%
+            </div>
+
+        </div>
+
+
+        <div class="setting-title">Try Our Apps</div>
+
+        <div class="settings-section">
+            <div class="app-promotion">
+                <i class="fas fa-mobile-alt" style="font-size: 20px; color: #00d692;"></i>
+                <div class="app-info">
+                    <strong>Muslim Browser - Mobile App</strong>
+                    <p style="font-size: 11px; color: #666; margin: 3px 0;">Islamic browser with built-in content filtering</p>
+                </div>
+            </div>
+            <a href="https://muslimbrowser.com" target="_blank" style="text-decoration: none;">
+                <button class="support-button" style="width: 100%; margin-top: 5px;">
+                    <i class="fas fa-download"></i> Visit muslimbrowser.com
+                </button>
+            </a>
+
+            <hr class="hr-style" style="margin: 12px 0;">
+
+            <div class="app-promotion">
+                <i class="fas fa-desktop" style="font-size: 20px; color: #00d692;"></i>
+                <div class="app-info">
+                    <strong>Desktop App Version</strong>
+                    <p style="font-size: 11px; color: #666; margin: 3px 0;">Standalone desktop application</p>
+                </div>
+            </div>
+            <a href="https://github.com/hijam-git/porda-ai" target="_blank" style="text-decoration: none;">
+                <button class="support-button" style="width: 100%; margin-top: 5px; background-color: #5e72e4;">
+                    <i class="fab fa-github"></i> Download Desktop App
+                </button>
+            </a>
+        </div>
+
+        <div class="setting-title">Need Help?</div>
+
+        <div class="settings-section">
+            <a href="https://forms.gle/yQk4yesWcuv65Ruw7" target="_blank" style="text-decoration: none;">
+                <button class="support-button" style="width: 100%;">
+                    <i class="fas fa-comment-dots"></i> Feedback / Report Issue
+                </button>
+            </a>
+
+            <hr class="hr-style" style="margin: 10px 0;">
+
+            <div style="text-align: center;">
+                <a href="https://pordaai.com" target="_blank" style="text-decoration: none; color: #00d692; font-weight: 600; font-size: 14px;">
+                    <i class="fas fa-globe"></i> pordaai.com
+                </a>
+            </div>
+        </div>
+
+    </div>
+ 
+    <script src="popup.js"></script>
+
+
+
+
+
+</body>
+
+</html>

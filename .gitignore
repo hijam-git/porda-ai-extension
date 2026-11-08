@@ -1,0 +1,18 @@
+dist
+pordaai.zip
+node_modules
+worktree
+scripts
+zipped
+
+*.zip
+
+# The trained model is private and must never be committed.
+# Only the README in assets/porda_model/ is tracked.
+assets/porda_model/*
+!assets/porda_model/README.md
+*.bin
+*.onnx
+*.tflite
+*.h5
+*.pt

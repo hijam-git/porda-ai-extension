@@ -1,0 +1,59 @@
+{
+	"manifest_version": 3,
+	"version": "1.1.15",
+	"name": "PordaAI - Blur Haram objects in Images and Videos - SuperFast Ai for Muslim",
+	"description": "Instantly Blur Haram and NSFW in images and videos. Real-time Ai for Islamic values.",
+	"author": "hijamweb@gmail.com",
+	"permissions": [
+		"storage",
+		"offscreen",
+		"activeTab"
+	],
+	"content_security_policy": {
+		"extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+		"sandbox": "sandbox allow-scripts; script-src 'self' http://localhost:* http://127.0.0.1:*; object-src"
+	},
+	"host_permissions": [
+		"<all_urls>"
+	],
+	"action": {
+		"default_title": "PordaAi",
+		"default_popup": "src/popup/popup.html",
+		"type": "module"
+	},
+	"minimum_chrome_version": "109",
+	"background": {
+		"service_worker": "src/background.js",
+		"type": "module"
+	},
+	"icons": {
+		"48": "assets/pordaai48.jpg",
+		"128": "assets/pordaai128.png",
+		"16": "assets/pordaai16.jpg",
+		"32": "assets/pordaai32.jpg"
+	},
+	"content_scripts": [
+		{
+			"js": [
+				"scripts/content/content.js"
+			],
+			"matches": [
+				"https://*/*",
+				"http://*/*"
+			],
+			"type": "module",
+			"run_at": "document_start"
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"src/*"
+			],
+			"matches": [
+				"https://*/*",
+				"http://*/*"
+			]
+		}
+	]
+}

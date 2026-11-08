@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"build": "vite build",
+		"build_offscreen": "vite build --config vite-offscreen.config.js",
+		"dev": "vite build --watch",
+		"release": "bestzip zipped/porda-ai-extension.zip scripts manifest.json assets src "
+	},
+	"devDependencies": {
+		"bestzip": "^2.2.1",
+		"vite": "^4.5.14"
+	},
+	"dependencies": {
+		"@rollup/plugin-node-resolve": "^15.2.3"
+	}
+}
